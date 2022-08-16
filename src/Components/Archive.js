@@ -49,15 +49,15 @@ class Archive extends React.Component
     render()
     {
         return(
-            <div>
-                <div id = "archive-body">
+            <div id = "archive-body">
                     <div id = "archive-dates">
+                        {this.makeSection("2020", ["spring", "fall", "winter"])}
                         {this.makeSection("2021", ["spring", "fall", "winter"])}
+                        {this.makeSection("2022", ["spring", "fall", "winter"])}
                     </div>
                     <div id = "archive-section">
                         {this.getWorkshops(this.state.semester, this.state.year)}
                     </div>
-                </div>
             </div>
         );
     }

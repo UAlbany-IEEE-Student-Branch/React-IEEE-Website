@@ -289,7 +289,7 @@ function Home()
           <div id = "server-wire3" className = "neutral-wire"/>
           <div id = "server-wire4" className = "neutral-wire"/>
 
-          <button style={{zIndex: "100", position: "fixed", visibility: "hidden"}} onClick={() => openPage('embed-display')}>Brandon is short</button>
+          <button style={{zIndex: "100", position: "fixed", visibility: "hidden"}} onClick={() => openPage('embed-display', 'https://cdn.discordapp.com/attachments/912562376593793084/1008988190071328798/unknown.png')}>Brandon is short</button>
           <div id = "pcb-shadow"/>
         </div>
         <canvas id = "canvas"/>

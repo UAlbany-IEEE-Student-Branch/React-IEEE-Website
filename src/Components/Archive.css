@@ -9,29 +9,12 @@
                                   supported by Chrome, Edge, Opera and Firefox */
 }
 
-#archive-section
-{
-    display: flex;
-}
-
-#archive-body
-{
-    position: relative;
-    transform: translateX(-50%);
-    left: 50%;
-    justify-content: space-evenly;
-    height: 50vw;
-    background-color: black;
-}
-
 #archive-dates
 {
-    width: auto;
-    height: 10rem;
     position: relative;
+    display: inline-flex;
     transform: translateX(-50%);
     left: 50%;
-    display: flex;
 }
 
 .archive-semesters
@@ -62,6 +45,19 @@
     margin-right: 1vw;
     margin-top: 0;
     margin-bottom: 0;
+}
+
+#archive-body
+{
+    width: 100%;
+    height: auto;
+    position: relative;
+    background-color: black;
+}
+
+#archive-section
+{
+    height: auto;
 }
 
 .hidden
