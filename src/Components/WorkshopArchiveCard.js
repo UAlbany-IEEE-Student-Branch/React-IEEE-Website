@@ -1,12 +1,18 @@
 import React from "react";
 import EmptyThumbnail from "./images/EmptyThumbnail.jpg"
 import FolderTop from "./images/FolderTop.png"
-import PlayButton from "./images/YoutubePlayButton.png"
+//import PlayButton from "./images/YoutubePlayButton.png"
 import "./WorkshopArchiveCard.css"
 import $ from 'jquery'
 
 class WorkshopArchiveCard extends React.Component
 {
+    constructor(props)
+    {
+        super(props);
+        this.state = {};
+
+    }
     static getDerivedStateFromProps(props, state)
     {
         var description = props.description;
@@ -30,13 +36,13 @@ class WorkshopArchiveCard extends React.Component
 
     formatImage()
     {
-        if(this.state.youtube == "")
+        if(this.state.youtube === "")
         {
-            return(<img className = "workshop-archive-thumbnail" src = {this.state.thumbnail}/>);
+            return(<img className = "workshop-archive-thumbnail" alt = "Workshop Thumbnail" src = {this.state.thumbnail}/>);
         }
         else
         {
-            return(<img className = "workshop-archive-thumbnail" src = {this.state.thumbnail}/>)
+            return(<img className = "workshop-archive-thumbnail" alt = "Workshop Thumbnail" src = {this.state.thumbnail}/>)
         }
     }
 
@@ -53,11 +59,11 @@ class WorkshopArchiveCard extends React.Component
         return(
             <div className = "workshop-archive-card">
                 <div id = {this.state.id + "text"}>
-                    <h2 className = "workshop-archive-text">Hello</h2>
+                    <h2 className = "workshop-archive-text">{this.state.name}</h2>
                 </div>
                 <div id = {this.state.id} className = "hidden">
                     <div className = "folder-top">
-                        <img className = "folder-top-img" src = {FolderTop}/>
+                        <img className = "folder-top-img" alt = "Folder" src = {FolderTop}/>
                     </div>
                     <div className = "folder-body">
                         <div className = "workshop-archive-card-body">

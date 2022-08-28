@@ -7,6 +7,12 @@ import './BoardMemberCard.css'
 
 class BoardMemberCard extends React.Component
 {
+    constructor(props)
+    {
+        super(props);
+        this.state = {};
+
+    }
     static getDerivedStateFromProps(props,state)
     {
         return {
@@ -64,14 +70,14 @@ class BoardMemberCard extends React.Component
             displayCard.style.width = width + "rem";
             displayCard.style.height = height + "rem";
             displayCard.style.backgroundColor = this.setColor();
-            displayCard.style.top = ((visualViewport.height / 2) - (element.parentElement.getBoundingClientRect().y)) - ((height * 16) / 2) - 100;
+            displayCard.style.top = ((visualViewport.height / 2) - (element.parentElement.getBoundingClientRect().y)) - ((height * 16) / 2);
             displayCard.style.left = ((visualViewport.width / 2) - (element.parentElement.getBoundingClientRect().x)) - ((width * 16) / 2);
 
             let background = document.getElementById(this.state.name + this.state.start + "back");
             background.className = "blur-back";
             background.style.width = $(window).width() + 100;
             background.style.height = $(window).height();
-            background.style.top = 0 - element.parentElement.getBoundingClientRect().y;
+            background.style.top = 0 - element.parentElement.getBoundingClientRect().y - 10;
             background.style.left = 0 - element.parentElement.getBoundingClientRect().x - 50;
 
             document.body.style.overflow = "hidden";

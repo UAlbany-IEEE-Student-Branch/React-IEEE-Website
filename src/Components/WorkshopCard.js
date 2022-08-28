@@ -3,6 +3,12 @@ import React from 'react';
 import "./WorkshopCard.css"
 class WorkshopCard extends React.Component
 {
+    constructor(props)
+    {
+        super(props);
+        this.state = {};
+
+    }
     static getDerivedStateFromProps(props, state)
     {
         if(props.flyer !== undefined && props.flyer !== "")

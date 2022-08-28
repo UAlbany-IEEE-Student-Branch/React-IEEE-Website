@@ -6,6 +6,12 @@ import "./EventsBanner.css"
 import $ from 'jquery'
 class EventsBanner extends React.Component
 {   
+    constructor(props)
+    {
+        super(props);
+        this.state = {};
+
+    }
     showMenu()
     {
         document.getElementById("menubutton").style.pointerEvents = "none";

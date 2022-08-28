@@ -7,6 +7,12 @@ import "./ProfileCard.css"
 
 class ProfileCard extends React.Component
 {
+    constructor(props)
+    {
+        super(props);
+        this.state = {};
+
+    }
     static getDerivedStateFromProps(props, state)
     {
         let avatar = props.avatar;

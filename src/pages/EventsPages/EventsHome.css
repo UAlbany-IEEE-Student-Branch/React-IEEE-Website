@@ -106,7 +106,6 @@
 /* Description Components */
 .defaultspacing
 {
-    line-height: .6in;
 }
 
 #eventsmaindescription
@@ -117,7 +116,6 @@
     background-color: rgb(41, 41, 41);
     padding-top: 60px;
     padding-bottom: 60px;
-    line-height: 3rem;
 }
 
 #featuredvideo
@@ -133,8 +131,8 @@
     text-align: center;
     background-color: rgb(100, 100, 100);
     color: black;
-    padding-top:40px;
-    padding-bottom:20px;
+    padding-top: 40px;
+    padding-bottom: 20px;
 }
 
 #workshopdescriptiontitle
@@ -153,5 +151,4 @@
     transform: translateX(-50%);
     left: 50%;
     font-size: 25px;
-    line-height: 3rem;
 }

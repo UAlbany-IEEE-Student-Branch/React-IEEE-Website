@@ -9,6 +9,12 @@ import $ from 'jquery'
 
 class ProjectPage extends React.Component
 {
+    constructor(props)
+    {
+        super(props);
+        this.state = {};
+
+    }
     static getDerivedStateFromProps(props, state)
     {
         let pattern = props.colorPattern;

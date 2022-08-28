@@ -92,6 +92,12 @@
         left: 50%;
         top: 50%;
     }
+    .about-text
+    {
+        width: calc(50% - 2rem);
+        color: white;
+        font-size: 2.5vw;
+    }
 
     @keyframes move-I
     {
@@ -213,6 +219,12 @@
         transform: translate(-50%, -50%);
         left: 50%;
         top: 50%;
+    }
+    .about-text
+    {
+        width: calc(50% - 2rem);
+        color: white;
+        font-size: 2.5vw;
     }
 
     @keyframes move-I
@@ -336,6 +348,29 @@
         left: 50%;
         top: 50%;
     }
+    .about-text
+    {
+        width: calc(100% - 2rem);
+        color: white;
+        font-size: 1rem;
+    }
+
+    #about-img1
+    {
+        width: 100%;
+    }
+
+    #about-img2
+    {
+        float: left;
+        width: 100%;
+    }
+
+    #about-img3
+    {
+        float: right;
+        width: 100%;
+    }
 
     @keyframes move-I
     {
@@ -414,52 +449,44 @@
     overflow: auto;
     padding-bottom: 5rem;
 }
-
-#about-img1
-{
-    float: right;
-    width: 50%;
-}
-
 #about-text1
 {
     float: left;
     margin-left: 1rem;
     margin-right: 1rem;
 }
-
-#about-img2
-{
-    float: left;
-    width: 50%;
-}
-
 #about-text2
 {
     float: right;
     margin-left: 1rem;
     margin-right: 1rem;
 }
-
-#about-img3
-{
-    float: right;
-    width: 50%;
-    margin-top: 8vw;
-}
-
 #about-text3
 {
     float: left;
     margin-left: 1rem;
     margin-right: 1rem;
 }
-
-.about-text
+@media screen and (min-width: 701px)
 {
-    width: calc(50% - 2rem);
-    color: white;
-    font-size: 2.5vw;
+
+    #about-img1
+    {
+        float: right;
+        width: 50%;
+    }
+    #about-img2
+    {
+        float: left;
+        width: 50%;
+    }
+
+    #about-img3
+    {
+        float: right;
+        width: 50%;
+        margin-top: 8vw;
+    }
 }
 
 .about-img

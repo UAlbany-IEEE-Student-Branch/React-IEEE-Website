@@ -1,5 +1,6 @@
 .workshop-archive-card
 {
+    width: 15rem;
     position: relative;
 }
 
@@ -7,12 +8,13 @@
 {
     color: white;
     margin: 0;
+    text-align: center;
     cursor: pointer;
 }
 
 .workshop-archive-text:hover
 {
-    color: orange;
+    color: lightblue;
 }
 
 .folder-top

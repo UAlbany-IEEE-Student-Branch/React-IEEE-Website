@@ -6,6 +6,12 @@ import "./WeeklyEventPage.css"
 
 class WeeklyEventPage extends React.Component
 {
+    constructor(props)
+    {
+        super(props);
+        this.state = {};
+
+    }
     static getDerivedStateFromProps(props, state)
     {
         return {

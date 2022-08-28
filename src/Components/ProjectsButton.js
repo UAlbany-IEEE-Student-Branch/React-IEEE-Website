@@ -1,6 +1,12 @@
 import React from 'react';
 class ProjectsButton extends React.Component
-{   
+{  
+    constructor(props)
+    {
+        super(props);
+        this.state = {};
+
+    } 
     goToLink()
     {
         if(this.state.link === "error")

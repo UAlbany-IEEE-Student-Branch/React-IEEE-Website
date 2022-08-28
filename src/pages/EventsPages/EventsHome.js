@@ -36,7 +36,7 @@ function EventsHome()
           students critical elements needed in their field of study as well as explore more about their
           targetted professions with real world professionals.
         </p>
-          <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/M5cR5Vmvnz0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen/>
+          <embed width="560vw" height="315vw" src="https://www.youtube-nocookie.com/embed/M5cR5Vmvnz0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen/>
       </div>
       <Footer/>
     </div>
