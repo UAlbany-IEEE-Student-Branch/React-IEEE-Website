@@ -12,8 +12,8 @@ import TShell from './pages/EventsPages/MemberProjects/TShell.js'
 import OfficeHours from './pages/EventsPages/MemberProjects/OfficeHours.js'
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
-function App() {
 
+function App() {
   return (
     <div className="App">
       <Router>
